@@ -1,0 +1,144 @@
+.table-1,
+.table-2,
+.table-3,
+.table-4,
+.task-name {
+    display: block;
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*** task 1 ***/
+.table-1_table {
+    border-spacing: 1px;
+    background-color: #000;
+}
+
+.table-1_table tr, td, th {
+    padding: 5px;
+    background-color: #fff;
+}
+
+/*** task 2 - 3 ***/
+.table-2,
+.table-3 {
+    font-size: 12px;
+    color: #565656;
+}
+
+.dollar::before {
+    content: "\0024";
+}
+
+.table-2_position,
+.table-3_position {
+    width: 175px;
+    text-align: left;
+    border-bottom: 1px solid #b8b8b8;
+    margin: 0;
+}
+
+.table-2_table,
+.table-3_table{
+    border-collapse: collapse;
+}
+
+.table-3_table td {
+    border-bottom: 1px solid #b8b8b8;
+}
+
+/*** task 4 ***/
+
+.table-4 {
+    border: 1px solid #b8b8b8;
+    width: 500px;
+    margin-left: 200px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    border-radius: 7px;
+    font-size: 12px;
+    position: relative;
+}
+
+.table-4_table th {
+    text-align: left;
+}
+
+.table-4_hyphen::before {
+    content: "\2014";
+}
+
+.table-4_color-font {
+    color: #ff0000;
+}
+
+.table-4_btn__nav {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.table-4_btn__nav-del {
+    background-color: #ff2700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    width: 65px;
+    height: 28px;
+    margin-top: 1px;
+}
+
+.table-4_btn__basket {
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    color: #ff0000;
+    font-style: italic;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 0 15px 160px;
+}
+
+.table-4_text-price {
+    font-size: 16px;
+    padding: 0;
+    margin: 20px 30px 7px 0;
+}
+
+.table-4_text-price span {
+    font-weight: 700;
+}
+
+.table-4_text-price__undiscounted {
+    font-size: 14px;
+    color: #9c9c9c;
+    padding: 0;
+    margin: 0 30px 20px 0;
+}
+
+.table-4_text-price,
+.table-4_text-price__undiscounted {
+    text-align: right;
+}
+.table-4_btn__closed {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    box-shadow: 0 0 7px #000;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -23px;
+}

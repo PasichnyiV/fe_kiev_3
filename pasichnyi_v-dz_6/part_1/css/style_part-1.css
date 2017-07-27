@@ -1,0 +1,76 @@
+.task-1,
+.task-2,
+.task-3,
+.task-4,
+.task-7,
+.task-name {
+    display: block;
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+    background-color: #c0c0c0;
+}
+
+.task-1_paragraph-1 a {
+    color: #008000;
+}
+
+.task-1_paragraph-1 a:hover {
+    color: #ff0;
+}
+
+.task-1_paragraph-1 a:active {
+    color: #f00;
+}
+
+.task-1_paragraph-2 a {
+    color: #800080;
+}
+
+.task-1_paragraph-2 a:hover {
+    color: #a52a2a;
+}
+
+.task-1_paragraph-2 a:active {
+    color: #ffd700;
+}
+
+.task-2 input:focus {
+    border: 2px solid green;
+}
+
+.task-3 p:nth-child(even) {
+    background-color: #808080;
+}
+
+.task-4 p:first-letter {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #ff0000;
+}
+
+/* task-5 */
+p.add_symbol:after {
+    content: "*";
+}
+
+/* task-6 */
+p.add_symbol::before {
+    content: "\2602";
+}
+
+.task-7_figure {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: #000;
+    margin: auto;
+}
+
+p.task-7_figure__add-triangle::before {
+    position: absolute;
+    content: "\1F780";
+    font-size: 2em;
+    right: 97px;
+    top: 2px;
+}
