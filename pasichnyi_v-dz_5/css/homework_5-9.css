@@ -1,0 +1,52 @@
+.fullwrap {
+    margin: 0 auto;
+    width: 560px;
+    height: 447px;
+    background-color: #80cdc6;
+    position: relative;
+    overflow: hidden;
+}
+
+.clouds {
+    position: absolute;
+	width: 63%;
+	height: 100%;
+	bottom: 8px;
+	left: 213px;
+}
+
+.world {
+    position: absolute;
+    width: 102%;
+    height: 100%;
+    top: 94px;
+    left: -6px;
+    z-index: 1;
+}
+
+.wooden-ship {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    top: 287px;
+    left: 14px;
+    z-index: 2;
+}
+
+.water {
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    top: 392px;
+    left: -4px;
+    z-index: 4;
+}
+
+.water_2 {
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    top: 399px;
+    left: -4px;
+    z-index: 3;
+}

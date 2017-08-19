@@ -1,0 +1,49 @@
+.fullwrap {
+	margin: 0 auto;
+	width: 960px;
+	height: 640px;
+	border: 1px solid #000;
+	position: relative;
+	overflow: hidden;
+}
+
+header {
+	width: 950px;
+	height: 60px;
+	margin: 4px;
+	border: 1px solid #000;
+}
+
+.wrap {
+	margin: 4px;
+	border: 1px solid #000;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.main {
+	width: 58.5%;
+	height: 484px;
+	margin: 4px 3px 4px 4px;
+	border: 1px solid #000;
+	float: left;
+}
+
+.sidebar {
+	width: 40%;
+	height: 484px;
+	margin-top: 4px;
+	border: 1px solid #000;
+	float: left;
+}
+
+footer {
+	height: 63px;
+	margin: 4px;
+	border: 1px solid #000;
+	clear: both;
+}
